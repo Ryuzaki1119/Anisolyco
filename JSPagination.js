@@ -49,7 +49,7 @@ halamanblogger();
 		}
 		for (var jj = mulai; jj <= akhir; jj++){
 			if (nomerhal == jj){
-				html += '<span class="showpagePoint page-item active">' + jj + '</span>'
+				html += '<span class="showpagePoint page-item active"><a class="page-link">' + jj + '<span class="sr-only">(current)</span>'</span>'
 			}
 			else if (jj == 1){
 				if (jenis == "page"){
